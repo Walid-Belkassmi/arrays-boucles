@@ -77,16 +77,16 @@
 // console.log(names[random])
 
 // 10 - Random and max
-// let numbers = []
-// let max = 0
-// for(let i = 0; i < 20; i++){
-//     numbers[i] = Math.floor(Math.random() * 100) + 1
-// }
-// console.log(numbers)
+let numbers = []
+let max = 0
+for(let i = 0; i < 20; i++){
+    numbers[i] = Math.floor(Math.random() * 101)
+}
+console.log(numbers)
 
-// for(let j = 0; j < numbers.length; j++){
-//     if(numbers[j] > max){
-//         max = numbers[j]
-//     }
-// }
-// console.log(max)
+for(let j = 0; j < numbers.length; j++){
+    if(numbers[j] > max){
+        max = numbers[j]
+    }
+}
+console.log(max)

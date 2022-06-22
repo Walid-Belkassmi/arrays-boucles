@@ -48,6 +48,9 @@
 
 // 07 - Fizzbuzz
 // for(let i = 0; i <= 100; i++){
+//     if(i % 7){
+//         console.log("")
+//     }
 //     if((i % 3 === 0) && (i % 5 === 0)){
 //         console.log("fizzbuzz")
 //     } else if(i % 5 === 0){
@@ -77,16 +80,20 @@
 // console.log(names[random])
 
 // 10 - Random and max
-let numbers = []
-let max = 0
-for(let i = 0; i < 20; i++){
-    numbers[i] = Math.floor(Math.random() * 101)
-}
-console.log(numbers)
+// let numbers = []
+// let max = 0
+// for(let i = 0; i < 20; i++){
+//     numbers[i] = Math.floor(Math.random() * 101)
+//     if(numbers[i] > max){
+//         max = numbers[i]
+//     }
 
-for(let j = 0; j < numbers.length; j++){
-    if(numbers[j] > max){
-        max = numbers[j]
-    }
-}
-console.log(max)
+// }
+// console.log(numbers)
+
+// for(let j = 0; j < numbers.length; j++){
+//     if(numbers[j] > max){
+//         max = numbers[j]
+//     }
+// }
+// console.log(max)

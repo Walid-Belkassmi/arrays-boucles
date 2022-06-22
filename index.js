@@ -41,7 +41,7 @@
 // const sentence = "Hello Konexio !"
 // let sentenceReverse = ""
 
-// for(let i = sentence.length; i > 0; i--){
+// for(let i = sentence.length; i >= 0; i--){
 //     sentenceReverse += sentence.charAt(i)
 // }
 // console.log(sentenceReverse)

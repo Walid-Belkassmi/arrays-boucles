@@ -1,6 +1,6 @@
 // 01 - Fruits
 // const fruits = ["mango", "lemon", "blueberry"]
-// console.log(fruits)
+// console.table(fruits)
 
 // 02 - Access
 // const ingredients = ["egg", "milk", "butter"]
@@ -48,7 +48,7 @@
 
 // 07 - Fizzbuzz
 // for(let i = 0; i <= 100; i++){
-//     if(i % 7){
+//     if(i % 7 === 0){
 //         console.log("")
 //     }
 //     if((i % 3 === 0) && (i % 5 === 0)){
@@ -65,11 +65,9 @@
 // 08 - While
 // let total = 0
 // let limit = 10
-// let i = 0
 
 // while(limit >= 0){
-//     total += i
-//     i++
+//     total += limit
 //     limit--
 // }
 // console.log(total)
